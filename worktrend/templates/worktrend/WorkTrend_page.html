@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% load wagtailcore_tags %}
+{% load wagtailcore_tags wagtailimages_tags %}
 
 {% block body_class %}template-blogpage{% endblock %}
 
@@ -12,6 +12,15 @@
 
     {{ page.body|richtext }}
 
-    <p><a href="{{ page.get_parent.url }}">回到通知公告</a></p>
+    {% for item in page.gallery_images.all %}
+        <div style="float: left; margin: 10px">
+            {% image item.image fill-320x240 %}
+            <p>{{ item.caption }}</p>
+        </div>
+    {% endfor %}
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div style="position:relative"><p><a href="{{ page.get_parent.url }}"><h1>通知公告</h1></a></p></div>
+
+
 
 {% endblock %}
