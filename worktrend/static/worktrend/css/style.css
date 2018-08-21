@@ -31,13 +31,13 @@ img{
 }
 /*-- banner --*/
 .banner-1{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/img_cbg_1.jpg) no-repeat 0px 0px;
 	background-size:cover;
     position: relative;
 	min-height:300px;
 }
 .banner{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/2.jpg) no-repeat 0px 0px;
 	background-size:cover;
     position: relative;
 }
@@ -778,7 +778,7 @@ span.video-text i {
     padding: 0;
 }
 .bannerbottomleft {
-    background: url(../images/2.jpg) no-repeat 0px 0px;
+    background: url(../images/img_cbg_1.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 525px;
 }
@@ -1478,7 +1478,7 @@ ul.ab li a:hover{
     margin-top: 5em;
 }
 .different{
-    background:url(../images/2.jpg)no-repeat center 0px fixed;
+    background:url(../images/img_cbg_1.jpg)no-repeat center 0px fixed;
     background-size: cover;
 	padding:5em 0;
 }
