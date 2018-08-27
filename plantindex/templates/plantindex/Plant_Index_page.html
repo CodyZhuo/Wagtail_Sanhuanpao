@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 
 {% load wagtailcore_tags %}
+
 {% block extra_css %}
-<link href="../../static/worktrend/css/bootstrap.css " rel="stylesheet" type="text/css" media="all" />
-<link href="../../static/worktrend/css/style.css " rel="stylesheet" type="text/css" media="all" />
-<link href="../../static/worktrend/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../../static/plantindex/css/bootstrap.css " rel="stylesheet" type="text/css" media="all" />
+<link href="../../static/plantindex/css/style.css " rel="stylesheet" type="text/css" media="all" />
+<link href="../../static/plantindex/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
 {% endblock %}
 
 {% block body_class %}template-blogindexpage{% endblock %}
 
 {% block content %}
-
 <body>
 
 <!-- banner -->
@@ -34,6 +34,7 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 								<nav class="cl-effect-15" id="cl-effect-15">
+									<ul class="nav navbar-nav">
 									<ul class="nav navbar-nav">
 										<li><a href="index.html">首页</a></li>
 
@@ -77,6 +78,7 @@
                                                     <li><a href="">保护区GIS系统</a></li>
 												</ul>
 
+
 								</nav>
 							</div>
 						</nav>
@@ -89,134 +91,125 @@
 
 	</div>
 <!-- //banner -->
-<!-- about -->
-	<!-- main-textgrids -->
-	<div class="main-textgrids">
+<!-- gallery -->
+	<div class="banner-bottom gallery">
 		<div class="container">
-			<div class="wthree_head_section">
-				<h3 class="w3l_header">About <span>Us</span></h3>
+		<div class="wthree_head_section">
+				<h2 class="w3l_header">Our <span>Gallery</span></h2>
 				<p>A travel agency is a private retailer or public service that provides travel and tourism related services to the public on behalf of suppliers such as activities.</p>
 			</div>
-			<div class="ab-agile">
-				<div class="col-md-5 ab-pic">
-					 <img src="images/g1.jpg" alt=" " />
+			<div class="w3ls_gallery_grids">
+				<div class="col-md-4 w3_agile_gallery_grid">
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g1.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g1.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g2.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g2.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g3.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g3.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
 				</div>
-				<div class="col-md-7 ab-text">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.</p>
-					<ul class="ab">
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,consectetur adipiscing elit</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Pellentesque eu erat lacus,consectetur adipiscing elit</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,consectetur adipiscing elit</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,consectetur adipiscing elit</a></li>
-					</ul>
+				<div class="col-md-4 w3_agile_gallery_grid">
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g10.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g10.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g12.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g12.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g6.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g6.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
 				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="statements">
-				<div class="col-md-7 mission">
-					 <h4>Aenean quis faucibus libero</h4>
-					 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.</p>
-					<ul class="ab">
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,consectetur adipiscing elit</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Pellentesque eu erat lacus,consectetur adipiscing elit</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,consectetur adipiscing elit</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-angle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,consectetur adipiscing elit</a></li>
-					</ul>
+				<div class="col-md-4 w3_agile_gallery_grid">
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g7.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g7.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g8.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g8.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="../../static/plantindex/images/g9.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="../../static/plantindex/images/g9.jpg" alt=" " class="img-responsive" />
+								<div class="w3layouts_gallery_grid1_pos">
+									<h3>Travel</h3>
+									<p> Transport</p>
+								</div>
+							</div>
+						</a>
+					</div>
 				</div>
-				<div class="col-md-5 facts">
-					<img src="images/g4.jpg" alt=" " />
-				</div>
-				<div class="clearfix"> </div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
-	<!-- //main-textgrids -->
-	<!-- different -->
-	<div class="different">
-		<div class="container">
-			<div class="wthree_head_section">
-				<h3 class="w3l_header hrm">Why We are <span class="hrm">Different</span></h3>
-				<p class="hrm">A travel agency is a private retailer or public service that provides travel and tourism related services to the public on behalf of suppliers such as activities.</p>
-			</div>
-			<div class="w3agile-different-info">
-				<p>Cras vehicula massa id ipsum venenatis, non convallis libero pellentesque. Sed tristique massa et mattis mattis. Nunc euismod consequat ex, eu tincidunt justo malesuada vitae. Sed auctor diam quis nulla hendrerit porta. Quisque venenatis, tortor quis tristique congue, lorem lectus elementum augue, in laoreet lorem justo lacinia velit. Phasellus tempus luctus velit, eu fermentum arcu porttitor sit amet. Suspendisse id efficitur sem. Donec laoreet ante at facilisis dictum. Donec sodales porta orci sed porta. Vivamus est enim, pharetra sit amet placerat ut, eleifend quis purus. Sed elementum tortor erat, placerat rutrum augue facilisis vel. Morbi feugiat tortor erat, nec gravida mauris egestas tincidunt. Sed vitae dignissim sapien.</p>
-				<div class="w3agile-button">
-					<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //different -->
-	<!-- team -->
-	<div class="team">
-		<div class="container">
-			<div class="wthree_head_section">
-				<h2 class="w3l_header">Our <span>Agents</span></h2>
-				<p>A travel agency is a private retailer or public service that provides travel and tourism related services to the public on behalf of suppliers such as activities.</p>
-			</div>
-			<div class="agileinfo-team-grids">
-				<div class="col-md-3 wthree-team-grid">
-					<img src="images/t1.jpg" alt="">
-					<div class="wthree-team-grid-info">
-						<h4>Mary Jane</h4>
-						<p>Vestibulum</p>
-						<div class="team-social-grids">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 wthree-team-grid">
-					<img src="images/t2.jpg" alt="">
-					<div class="wthree-team-grid-info">
-						<h4>Peter Parke</h4>
-						<p>Vestibulum</p>
-						<div class="team-social-grids">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 wthree-team-grid">
-					<img src="images/t3.jpg" alt="">
-					<div class="wthree-team-grid-info">
-						<h4>Jennifer Watson</h4>
-						<p>Vestibulum</p>
-						<div class="team-social-grids">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 wthree-team-grid">
-					<img src="images/t4.jpg" alt="">
-					<div class="wthree-team-grid-info">
-						<h4>Steven Wilson</h4>
-						<p>Vestibulum</p>
-						<div class="team-social-grids">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //team -->
-	<!-- //about -->
+<!-- //gallery -->
+
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
@@ -301,15 +294,15 @@
 	</div>
 <!-- //bootstrap-modal-pop-up -->
 <!-- js -->
-	<script type="text/javascript" src="../../static/worktrend/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../../static/plantindex/js/jquery-2.1.4.min.js"></script>
 	<!-- for bootstrap working -->
-	<script src="../../static/worktrend/js/bootstrap.js"></script>
+	<script src="../../static/plantindex/js/bootstrap.js"></script>
 	<!-- //for bootstrap working -->
 <!-- //js -->
 <!-- //here starts scrolling icon -->
-<script src="../../static/worktrend/js/SmoothScroll.min.js"></script>
-	<script type="text/javascript" src="../../static/worktrend/js/move-top.js"></script>
-	<script type="text/javascript" src="../../static/worktrend/js/easing.js"></script>
+<script src="../../static/plantindex/js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="../../static/plantindex/js/move-top.js"></script>
+	<script type="text/javascript" src="../../static/plantindex/js/easing.js"></script>
 	<!-- here stars scrolling script -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -339,7 +332,12 @@
 	});
 </script>
 <!-- //scrolling script -->
-</body>
+<!-- simpleLightbox -->
+		<script src="../../static/plantindex/js/simpleLightbox.js"></script>	<script>
+		$('.w3_agile_gallery_grid a').simpleLightbox();
+	</script>
+<!-- //simpleLightbox -->
 
+</body>
 
 {% endblock %}

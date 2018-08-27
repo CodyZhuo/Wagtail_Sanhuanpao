@@ -27,6 +27,7 @@ INSTALLED_APPS = [
 
     'home',
     'worktrend',
+    'plantindex',
     'search',
 
     'wagtail.contrib.forms',
